@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "font", sans-serif;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-student {
+  align-self: flex-start;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 120px;
+}
+
+.empty {
+  border: 1px solid red;
+}
+
+.warning {
+  margin-bottom: 5px;
+}
+
+.table-wrapper {
+  width: 72%;
+}
+
+.finder {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.find-input:not(:last-child) {
+  margin-right: 10px;
+}
+
+.table {
+  margin-bottom: 0;
+  border: 1px solid gray;
+}
+
+.table-title {
+  cursor: pointer;
+}
+
+.table-title:hover {
+  opacity: 70%;
+}
